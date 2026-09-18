@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #000;
+    color: white;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    /* background-color: white; */
+    border-bottom: 2px solid rgb(174, 28, 28);
+    margin-top: 10px;
+}
+
+.ans {
+    margin-top: 5px;
+    margin-left: 65px;
+    font-weight: 600;
+    line-height: 45px;
+    font-size: 20px;
+}
+
+.main {
+    margin: 20px 0 0 0;
+}
+
+.container {
+    max-width: 1320px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.heading {
+    font-size: 40px;
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+
+.m-20 {
+    margin: 20px 0 0 0;
+}
