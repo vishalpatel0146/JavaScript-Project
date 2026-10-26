@@ -1,0 +1,86 @@
+
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar-brand {
+    color: #212529;
+}
+
+.navbar-brand:hover {
+    color: #dc3545;
+}
+
+.nav-link:hover {
+    color: #dc3545;
+}
+
+.product-image {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    padding: 15px;
+    background-color: white;
+}
+
+.card {
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+.card-title {
+    min-height: 48px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c757d;
+}
+
+.product-price {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.product-old-price {
+    font-size: 14px;
+    color: #777;
+    text-decoration: line-through;
+}
+
+.btn-primary {
+    background-color: #212529;
+    border: 1px solid #212529;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+}
+
+@media (max-width: 575px) {
+    .card-title {
+        font-size: 16px;
+    }
+
+    .card-text {
+        font-size: 13px;
+    }
+}

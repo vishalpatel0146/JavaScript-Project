@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jabronic | My Product Store</title>
+
+    <link rel="icon" type="image/svg+xml"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/svgs/solid/bag-shopping.svg">
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css">
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <header class="position-sticky top-0 z-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-2">
+            <div class="container">
+
+                <a class="navbar-brand fw-bold fs-3" href="#">
+                    <i class="ri-shopping-bag-3-line text-danger"></i>
+                    Jabronic
+                </a>
+
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto fs-5 fw-medium">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#productContainer">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">About</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="container py-4">
+                <div class="text-center mb-4">
+                    <h1 class="fw-bold">My Product Store</h1>
+                    <p class="text-secondary">Explore our latest products and find your favourites.</p>
+                </div>
+
+                <div class="row g-4" id="productContainer"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="bg-dark text-white mt-4">
+        <div class="container py-3">
+            <div class="row align-items-center gy-2">
+                <div class="col-md-7 text-center text-md-start">
+                    <p class="mb-0">
+                        Copyright © <span id="year"></span>
+                        <a href="#" class="text-danger fw-semibold text-decoration-none">Jabronic</a>.
+                        All Rights Reserved.
+                    </p>
+                </div>
+
+                <div class="col-md-5 text-center text-md-end">
+                    <p class="mb-0 text-secondary">
+                        Made with <i class="ri-heart-fill text-danger"></i>
+                        for product lovers
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/ts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
