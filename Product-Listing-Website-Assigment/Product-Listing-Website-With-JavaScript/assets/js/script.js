@@ -1825,10 +1825,10 @@ if (containers) {
 
                     <p class="mb-1">
                         <span class="product-price">
-                            $${discountPrice.toFixed(2)}
+                            ${discountPrice.toFixed(2)}
                         </span>
                         <span class="product-old-price">
-                            $${product.price}
+                            ${product.price}
                         </span>
                     </p>
 
